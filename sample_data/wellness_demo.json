@@ -1,0 +1,1193 @@
+[
+  {
+    "id": "day-2026-10-26",
+    "date": "2026-10-26",
+    "timestamp": "2026-10-26T23:59:59Z",
+    "activity": {
+      "steps": 8940,
+      "active_minutes": 90,
+      "distance_km": 6.97,
+      "calories_burned": 2521,
+      "workout_type": "Running"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.36,
+      "deep_sleep_hours": 1.73,
+      "rem_sleep_hours": 1.49,
+      "light_sleep_hours": 4.14,
+      "efficiency_score": 81,
+      "sleep_latency_minutes": 28,
+      "bedtime": "23:48",
+      "wake_time": "06:45"
+    },
+    "heart_rate": {
+      "resting_bpm": 62,
+      "average_bpm": 73,
+      "max_bpm": 164,
+      "hrv_ms": 55
+    },
+    "screen_time": {
+      "total_screen_hours": 8.3,
+      "late_night_screen_minutes": 52,
+      "productivity_hours": 5.2,
+      "entertainment_social_hours": 3.1,
+      "pickup_count": 74
+    },
+    "wellness_score": 83,
+    "tags": [
+      "High Deep Sleep Recovery"
+    ]
+  },
+  {
+    "id": "day-2026-10-27",
+    "date": "2026-10-27",
+    "timestamp": "2026-10-27T23:59:59Z",
+    "activity": {
+      "steps": 10023,
+      "active_minutes": 87,
+      "distance_km": 7.82,
+      "calories_burned": 2465,
+      "workout_type": "Brisk Walk"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.13,
+      "deep_sleep_hours": 1.73,
+      "rem_sleep_hours": 1.45,
+      "light_sleep_hours": 3.95,
+      "efficiency_score": 82,
+      "sleep_latency_minutes": 27,
+      "bedtime": "23:15",
+      "wake_time": "07:16"
+    },
+    "heart_rate": {
+      "resting_bpm": 60,
+      "average_bpm": 73,
+      "max_bpm": 150,
+      "hrv_ms": 59
+    },
+    "screen_time": {
+      "total_screen_hours": 10.1,
+      "late_night_screen_minutes": 38,
+      "productivity_hours": 6.1,
+      "entertainment_social_hours": 4.0,
+      "pickup_count": 101
+    },
+    "wellness_score": 83,
+    "tags": [
+      "High Deep Sleep Recovery",
+      "Active Day Target Met"
+    ]
+  },
+  {
+    "id": "day-2026-10-28",
+    "date": "2026-10-28",
+    "timestamp": "2026-10-28T23:59:59Z",
+    "activity": {
+      "steps": 8154,
+      "active_minutes": 79,
+      "distance_km": 6.36,
+      "calories_burned": 2368,
+      "workout_type": "Yoga"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.15,
+      "deep_sleep_hours": 1.61,
+      "rem_sleep_hours": 1.5,
+      "light_sleep_hours": 4.04,
+      "efficiency_score": 81,
+      "sleep_latency_minutes": 20,
+      "bedtime": "23:22",
+      "wake_time": "08:14"
+    },
+    "heart_rate": {
+      "resting_bpm": 63,
+      "average_bpm": 76,
+      "max_bpm": 162,
+      "hrv_ms": 48
+    },
+    "screen_time": {
+      "total_screen_hours": 9.4,
+      "late_night_screen_minutes": 54,
+      "productivity_hours": 6.1,
+      "entertainment_social_hours": 3.3,
+      "pickup_count": 112
+    },
+    "wellness_score": 80,
+    "tags": [
+      "High Deep Sleep Recovery"
+    ]
+  },
+  {
+    "id": "day-2026-10-29",
+    "date": "2026-10-29",
+    "timestamp": "2026-10-29T23:59:59Z",
+    "activity": {
+      "steps": 10441,
+      "active_minutes": 85,
+      "distance_km": 8.14,
+      "calories_burned": 2525,
+      "workout_type": "Strength Training"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.23,
+      "deep_sleep_hours": 1.67,
+      "rem_sleep_hours": 1.49,
+      "light_sleep_hours": 4.07,
+      "efficiency_score": 78,
+      "sleep_latency_minutes": 24,
+      "bedtime": "23:14",
+      "wake_time": "08:20"
+    },
+    "heart_rate": {
+      "resting_bpm": 60,
+      "average_bpm": 72,
+      "max_bpm": 166,
+      "hrv_ms": 56
+    },
+    "screen_time": {
+      "total_screen_hours": 8.7,
+      "late_night_screen_minutes": 52,
+      "productivity_hours": 4.4,
+      "entertainment_social_hours": 4.3,
+      "pickup_count": 121
+    },
+    "wellness_score": 83,
+    "tags": [
+      "High Deep Sleep Recovery",
+      "Active Day Target Met"
+    ]
+  },
+  {
+    "id": "day-2026-10-30",
+    "date": "2026-10-30",
+    "timestamp": "2026-10-30T23:59:59Z",
+    "activity": {
+      "steps": 7882,
+      "active_minutes": 67,
+      "distance_km": 6.15,
+      "calories_burned": 2386,
+      "workout_type": "Brisk Walk"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.2,
+      "deep_sleep_hours": 1.65,
+      "rem_sleep_hours": 1.53,
+      "light_sleep_hours": 4.02,
+      "efficiency_score": 79,
+      "sleep_latency_minutes": 18,
+      "bedtime": "23:46",
+      "wake_time": "08:30"
+    },
+    "heart_rate": {
+      "resting_bpm": 62,
+      "average_bpm": 71,
+      "max_bpm": 146,
+      "hrv_ms": 52
+    },
+    "screen_time": {
+      "total_screen_hours": 8.3,
+      "late_night_screen_minutes": 35,
+      "productivity_hours": 4.3,
+      "entertainment_social_hours": 4.0,
+      "pickup_count": 74
+    },
+    "wellness_score": 83,
+    "tags": [
+      "High Deep Sleep Recovery"
+    ]
+  },
+  {
+    "id": "day-2026-10-31",
+    "date": "2026-10-31",
+    "timestamp": "2026-10-31T23:59:59Z",
+    "activity": {
+      "steps": 7047,
+      "active_minutes": 61,
+      "distance_km": 5.5,
+      "calories_burned": 2257,
+      "workout_type": "Cycling"
+    },
+    "sleep": {
+      "total_sleep_hours": 6.66,
+      "deep_sleep_hours": 1.11,
+      "rem_sleep_hours": 1.26,
+      "light_sleep_hours": 4.29,
+      "efficiency_score": 69,
+      "sleep_latency_minutes": 41,
+      "bedtime": "00:24",
+      "wake_time": "06:42"
+    },
+    "heart_rate": {
+      "resting_bpm": 65,
+      "average_bpm": 79,
+      "max_bpm": 149,
+      "hrv_ms": 36
+    },
+    "screen_time": {
+      "total_screen_hours": 9.4,
+      "late_night_screen_minutes": 117,
+      "productivity_hours": 4.7,
+      "entertainment_social_hours": 4.7,
+      "pickup_count": 122
+    },
+    "wellness_score": 72,
+    "tags": [
+      "High Pre-Sleep Screen Exposure",
+      "Delayed Sleep Onset",
+      "Autonomic Fatigue Indicator"
+    ]
+  },
+  {
+    "id": "day-2026-11-01",
+    "date": "2026-11-01",
+    "timestamp": "2026-11-01T23:59:59Z",
+    "activity": {
+      "steps": 3500,
+      "active_minutes": 43,
+      "distance_km": 2.73,
+      "calories_burned": 2072,
+      "workout_type": "Cycling"
+    },
+    "sleep": {
+      "total_sleep_hours": 6.92,
+      "deep_sleep_hours": 1.16,
+      "rem_sleep_hours": 1.35,
+      "light_sleep_hours": 4.41,
+      "efficiency_score": 76,
+      "sleep_latency_minutes": 35,
+      "bedtime": "00:44",
+      "wake_time": "07:31"
+    },
+    "heart_rate": {
+      "resting_bpm": 60,
+      "average_bpm": 68,
+      "max_bpm": 135,
+      "hrv_ms": 43
+    },
+    "screen_time": {
+      "total_screen_hours": 7.9,
+      "late_night_screen_minutes": 96,
+      "productivity_hours": 4.5,
+      "entertainment_social_hours": 3.4,
+      "pickup_count": 94
+    },
+    "wellness_score": 72,
+    "tags": [
+      "High Pre-Sleep Screen Exposure",
+      "Delayed Sleep Onset",
+      "Autonomic Fatigue Indicator"
+    ]
+  },
+  {
+    "id": "day-2026-11-02",
+    "date": "2026-11-02",
+    "timestamp": "2026-11-02T23:59:59Z",
+    "activity": {
+      "steps": 10669,
+      "active_minutes": 100,
+      "distance_km": 8.32,
+      "calories_burned": 2637,
+      "workout_type": "HIIT"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.72,
+      "deep_sleep_hours": 2.01,
+      "rem_sleep_hours": 1.62,
+      "light_sleep_hours": 4.09,
+      "efficiency_score": 85,
+      "sleep_latency_minutes": 20,
+      "bedtime": "23:33",
+      "wake_time": "06:44"
+    },
+    "heart_rate": {
+      "resting_bpm": 60,
+      "average_bpm": 71,
+      "max_bpm": 156,
+      "hrv_ms": 58
+    },
+    "screen_time": {
+      "total_screen_hours": 9.3,
+      "late_night_screen_minutes": 10,
+      "productivity_hours": 4.5,
+      "entertainment_social_hours": 4.8,
+      "pickup_count": 83
+    },
+    "wellness_score": 87,
+    "tags": [
+      "High Deep Sleep Recovery",
+      "Active Day Target Met"
+    ]
+  },
+  {
+    "id": "day-2026-11-03",
+    "date": "2026-11-03",
+    "timestamp": "2026-11-03T23:59:59Z",
+    "activity": {
+      "steps": 13097,
+      "active_minutes": 105,
+      "distance_km": 10.22,
+      "calories_burned": 2680,
+      "workout_type": "Yoga"
+    },
+    "sleep": {
+      "total_sleep_hours": 6.7,
+      "deep_sleep_hours": 1.51,
+      "rem_sleep_hours": 1.35,
+      "light_sleep_hours": 3.84,
+      "efficiency_score": 72,
+      "sleep_latency_minutes": 29,
+      "bedtime": "00:41",
+      "wake_time": "06:44"
+    },
+    "heart_rate": {
+      "resting_bpm": 62,
+      "average_bpm": 71,
+      "max_bpm": 155,
+      "hrv_ms": 54
+    },
+    "screen_time": {
+      "total_screen_hours": 7.7,
+      "late_night_screen_minutes": 84,
+      "productivity_hours": 4.9,
+      "entertainment_social_hours": 2.8,
+      "pickup_count": 84
+    },
+    "wellness_score": 80,
+    "tags": [
+      "High Pre-Sleep Screen Exposure",
+      "Active Day Target Met"
+    ]
+  },
+  {
+    "id": "day-2026-11-04",
+    "date": "2026-11-04",
+    "timestamp": "2026-11-04T23:59:59Z",
+    "activity": {
+      "steps": 9293,
+      "active_minutes": 88,
+      "distance_km": 7.25,
+      "calories_burned": 2513,
+      "workout_type": "HIIT"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.39,
+      "deep_sleep_hours": 1.88,
+      "rem_sleep_hours": 1.54,
+      "light_sleep_hours": 3.97,
+      "efficiency_score": 82,
+      "sleep_latency_minutes": 21,
+      "bedtime": "23:43",
+      "wake_time": "07:17"
+    },
+    "heart_rate": {
+      "resting_bpm": 60,
+      "average_bpm": 73,
+      "max_bpm": 161,
+      "hrv_ms": 56
+    },
+    "screen_time": {
+      "total_screen_hours": 7.9,
+      "late_night_screen_minutes": 23,
+      "productivity_hours": 4.2,
+      "entertainment_social_hours": 3.7,
+      "pickup_count": 79
+    },
+    "wellness_score": 86,
+    "tags": [
+      "High Deep Sleep Recovery"
+    ]
+  },
+  {
+    "id": "day-2026-11-05",
+    "date": "2026-11-05",
+    "timestamp": "2026-11-05T23:59:59Z",
+    "activity": {
+      "steps": 9208,
+      "active_minutes": 79,
+      "distance_km": 7.18,
+      "calories_burned": 2400,
+      "workout_type": "Brisk Walk"
+    },
+    "sleep": {
+      "total_sleep_hours": 6.86,
+      "deep_sleep_hours": 1.39,
+      "rem_sleep_hours": 1.4,
+      "light_sleep_hours": 4.07,
+      "efficiency_score": 76,
+      "sleep_latency_minutes": 26,
+      "bedtime": "00:42",
+      "wake_time": "06:27"
+    },
+    "heart_rate": {
+      "resting_bpm": 63,
+      "average_bpm": 76,
+      "max_bpm": 146,
+      "hrv_ms": 48
+    },
+    "screen_time": {
+      "total_screen_hours": 8.9,
+      "late_night_screen_minutes": 86,
+      "productivity_hours": 4.1,
+      "entertainment_social_hours": 4.8,
+      "pickup_count": 124
+    },
+    "wellness_score": 78,
+    "tags": [
+      "High Pre-Sleep Screen Exposure"
+    ]
+  },
+  {
+    "id": "day-2026-11-06",
+    "date": "2026-11-06",
+    "timestamp": "2026-11-06T23:59:59Z",
+    "activity": {
+      "steps": 8590,
+      "active_minutes": 84,
+      "distance_km": 6.7,
+      "calories_burned": 2450,
+      "workout_type": "Brisk Walk"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.37,
+      "deep_sleep_hours": 1.48,
+      "rem_sleep_hours": 1.4,
+      "light_sleep_hours": 4.49,
+      "efficiency_score": 73,
+      "sleep_latency_minutes": 40,
+      "bedtime": "00:37",
+      "wake_time": "07:39"
+    },
+    "heart_rate": {
+      "resting_bpm": 63,
+      "average_bpm": 77,
+      "max_bpm": 157,
+      "hrv_ms": 49
+    },
+    "screen_time": {
+      "total_screen_hours": 7.8,
+      "late_night_screen_minutes": 94,
+      "productivity_hours": 3.9,
+      "entertainment_social_hours": 3.9,
+      "pickup_count": 93
+    },
+    "wellness_score": 79,
+    "tags": [
+      "High Pre-Sleep Screen Exposure",
+      "Delayed Sleep Onset"
+    ]
+  },
+  {
+    "id": "day-2026-11-07",
+    "date": "2026-11-07",
+    "timestamp": "2026-11-07T23:59:59Z",
+    "activity": {
+      "steps": 6937,
+      "active_minutes": 64,
+      "distance_km": 5.41,
+      "calories_burned": 2339,
+      "workout_type": "Hiking"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.02,
+      "deep_sleep_hours": 1.47,
+      "rem_sleep_hours": 1.45,
+      "light_sleep_hours": 4.1,
+      "efficiency_score": 78,
+      "sleep_latency_minutes": 24,
+      "bedtime": "23:27",
+      "wake_time": "07:25"
+    },
+    "heart_rate": {
+      "resting_bpm": 64,
+      "average_bpm": 78,
+      "max_bpm": 144,
+      "hrv_ms": 55
+    },
+    "screen_time": {
+      "total_screen_hours": 7.4,
+      "late_night_screen_minutes": 60,
+      "productivity_hours": 3.8,
+      "entertainment_social_hours": 3.6,
+      "pickup_count": 66
+    },
+    "wellness_score": 82,
+    "tags": [
+      "Balanced Baseline"
+    ]
+  },
+  {
+    "id": "day-2026-11-08",
+    "date": "2026-11-08",
+    "timestamp": "2026-11-08T23:59:59Z",
+    "activity": {
+      "steps": 7058,
+      "active_minutes": 54,
+      "distance_km": 5.51,
+      "calories_burned": 2299,
+      "workout_type": "Hiking"
+    },
+    "sleep": {
+      "total_sleep_hours": 6.4,
+      "deep_sleep_hours": 1.08,
+      "rem_sleep_hours": 1.27,
+      "light_sleep_hours": 4.05,
+      "efficiency_score": 72,
+      "sleep_latency_minutes": 32,
+      "bedtime": "00:13",
+      "wake_time": "06:34"
+    },
+    "heart_rate": {
+      "resting_bpm": 66,
+      "average_bpm": 77,
+      "max_bpm": 147,
+      "hrv_ms": 45
+    },
+    "screen_time": {
+      "total_screen_hours": 7.4,
+      "late_night_screen_minutes": 106,
+      "productivity_hours": 4.8,
+      "entertainment_social_hours": 2.6,
+      "pickup_count": 66
+    },
+    "wellness_score": 75,
+    "tags": [
+      "High Pre-Sleep Screen Exposure",
+      "Delayed Sleep Onset"
+    ]
+  },
+  {
+    "id": "day-2026-11-09",
+    "date": "2026-11-09",
+    "timestamp": "2026-11-09T23:59:59Z",
+    "activity": {
+      "steps": 10990,
+      "active_minutes": 100,
+      "distance_km": 8.57,
+      "calories_burned": 2643,
+      "workout_type": "HIIT"
+    },
+    "sleep": {
+      "total_sleep_hours": 6.57,
+      "deep_sleep_hours": 1.41,
+      "rem_sleep_hours": 1.26,
+      "light_sleep_hours": 3.9,
+      "efficiency_score": 75,
+      "sleep_latency_minutes": 38,
+      "bedtime": "00:44",
+      "wake_time": "06:30"
+    },
+    "heart_rate": {
+      "resting_bpm": 63,
+      "average_bpm": 71,
+      "max_bpm": 170,
+      "hrv_ms": 49
+    },
+    "screen_time": {
+      "total_screen_hours": 8.5,
+      "late_night_screen_minutes": 94,
+      "productivity_hours": 5.5,
+      "entertainment_social_hours": 3.0,
+      "pickup_count": 110
+    },
+    "wellness_score": 78,
+    "tags": [
+      "High Pre-Sleep Screen Exposure",
+      "Delayed Sleep Onset",
+      "Active Day Target Met"
+    ]
+  },
+  {
+    "id": "day-2026-11-10",
+    "date": "2026-11-10",
+    "timestamp": "2026-11-10T23:59:59Z",
+    "activity": {
+      "steps": 11432,
+      "active_minutes": 92,
+      "distance_km": 8.92,
+      "calories_burned": 2611,
+      "workout_type": "Strength Training"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.42,
+      "deep_sleep_hours": 1.93,
+      "rem_sleep_hours": 1.62,
+      "light_sleep_hours": 3.87,
+      "efficiency_score": 85,
+      "sleep_latency_minutes": 11,
+      "bedtime": "23:25",
+      "wake_time": "08:12"
+    },
+    "heart_rate": {
+      "resting_bpm": 59,
+      "average_bpm": 68,
+      "max_bpm": 167,
+      "hrv_ms": 59
+    },
+    "screen_time": {
+      "total_screen_hours": 9.1,
+      "late_night_screen_minutes": 10,
+      "productivity_hours": 4.2,
+      "entertainment_social_hours": 4.9,
+      "pickup_count": 91
+    },
+    "wellness_score": 87,
+    "tags": [
+      "High Deep Sleep Recovery",
+      "Active Day Target Met"
+    ]
+  },
+  {
+    "id": "day-2026-11-11",
+    "date": "2026-11-11",
+    "timestamp": "2026-11-11T23:59:59Z",
+    "activity": {
+      "steps": 7827,
+      "active_minutes": 66,
+      "distance_km": 6.11,
+      "calories_burned": 2378,
+      "workout_type": "HIIT"
+    },
+    "sleep": {
+      "total_sleep_hours": 6.97,
+      "deep_sleep_hours": 1.63,
+      "rem_sleep_hours": 1.48,
+      "light_sleep_hours": 3.86,
+      "efficiency_score": 86,
+      "sleep_latency_minutes": 18,
+      "bedtime": "23:14",
+      "wake_time": "06:39"
+    },
+    "heart_rate": {
+      "resting_bpm": 63,
+      "average_bpm": 78,
+      "max_bpm": 150,
+      "hrv_ms": 60
+    },
+    "screen_time": {
+      "total_screen_hours": 7.6,
+      "late_night_screen_minutes": 28,
+      "productivity_hours": 4.5,
+      "entertainment_social_hours": 3.1,
+      "pickup_count": 76
+    },
+    "wellness_score": 86,
+    "tags": [
+      "High Deep Sleep Recovery"
+    ]
+  },
+  {
+    "id": "day-2026-11-12",
+    "date": "2026-11-12",
+    "timestamp": "2026-11-12T23:59:59Z",
+    "activity": {
+      "steps": 7523,
+      "active_minutes": 65,
+      "distance_km": 5.87,
+      "calories_burned": 2292,
+      "workout_type": "Brisk Walk"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.04,
+      "deep_sleep_hours": 1.38,
+      "rem_sleep_hours": 1.42,
+      "light_sleep_hours": 4.24,
+      "efficiency_score": 77,
+      "sleep_latency_minutes": 28,
+      "bedtime": "23:49",
+      "wake_time": "08:43"
+    },
+    "heart_rate": {
+      "resting_bpm": 63,
+      "average_bpm": 79,
+      "max_bpm": 148,
+      "hrv_ms": 52
+    },
+    "screen_time": {
+      "total_screen_hours": 7.4,
+      "late_night_screen_minutes": 80,
+      "productivity_hours": 4.7,
+      "entertainment_social_hours": 2.7,
+      "pickup_count": 66
+    },
+    "wellness_score": 81,
+    "tags": [
+      "High Pre-Sleep Screen Exposure"
+    ]
+  },
+  {
+    "id": "day-2026-11-13",
+    "date": "2026-11-13",
+    "timestamp": "2026-11-13T23:59:59Z",
+    "activity": {
+      "steps": 12513,
+      "active_minutes": 108,
+      "distance_km": 9.76,
+      "calories_burned": 2665,
+      "workout_type": "Strength Training"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.75,
+      "deep_sleep_hours": 1.99,
+      "rem_sleep_hours": 1.59,
+      "light_sleep_hours": 4.17,
+      "efficiency_score": 78,
+      "sleep_latency_minutes": 25,
+      "bedtime": "23:50",
+      "wake_time": "07:42"
+    },
+    "heart_rate": {
+      "resting_bpm": 59,
+      "average_bpm": 72,
+      "max_bpm": 160,
+      "hrv_ms": 64
+    },
+    "screen_time": {
+      "total_screen_hours": 8.6,
+      "late_night_screen_minutes": 43,
+      "productivity_hours": 5.4,
+      "entertainment_social_hours": 3.2,
+      "pickup_count": 120
+    },
+    "wellness_score": 85,
+    "tags": [
+      "High Deep Sleep Recovery",
+      "Active Day Target Met"
+    ]
+  },
+  {
+    "id": "day-2026-11-14",
+    "date": "2026-11-14",
+    "timestamp": "2026-11-14T23:59:59Z",
+    "activity": {
+      "steps": 3500,
+      "active_minutes": 30,
+      "distance_km": 2.73,
+      "calories_burned": 1977,
+      "workout_type": "Rest"
+    },
+    "sleep": {
+      "total_sleep_hours": 6.92,
+      "deep_sleep_hours": 1.1,
+      "rem_sleep_hours": 1.33,
+      "light_sleep_hours": 4.49,
+      "efficiency_score": 72,
+      "sleep_latency_minutes": 38,
+      "bedtime": "00:10",
+      "wake_time": "06:14"
+    },
+    "heart_rate": {
+      "resting_bpm": 67,
+      "average_bpm": 81,
+      "max_bpm": 144,
+      "hrv_ms": 47
+    },
+    "screen_time": {
+      "total_screen_hours": 8.0,
+      "late_night_screen_minutes": 92,
+      "productivity_hours": 3.6,
+      "entertainment_social_hours": 4.4,
+      "pickup_count": 80
+    },
+    "wellness_score": 63,
+    "tags": [
+      "High Pre-Sleep Screen Exposure",
+      "Delayed Sleep Onset"
+    ]
+  },
+  {
+    "id": "day-2026-11-15",
+    "date": "2026-11-15",
+    "timestamp": "2026-11-15T23:59:59Z",
+    "activity": {
+      "steps": 9384,
+      "active_minutes": 91,
+      "distance_km": 7.32,
+      "calories_burned": 2520,
+      "workout_type": "Long Walk"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.41,
+      "deep_sleep_hours": 1.56,
+      "rem_sleep_hours": 1.5,
+      "light_sleep_hours": 4.35,
+      "efficiency_score": 76,
+      "sleep_latency_minutes": 27,
+      "bedtime": "00:23",
+      "wake_time": "08:25"
+    },
+    "heart_rate": {
+      "resting_bpm": 59,
+      "average_bpm": 67,
+      "max_bpm": 159,
+      "hrv_ms": 56
+    },
+    "screen_time": {
+      "total_screen_hours": 7.1,
+      "late_night_screen_minutes": 89,
+      "productivity_hours": 3.4,
+      "entertainment_social_hours": 3.7,
+      "pickup_count": 71
+    },
+    "wellness_score": 84,
+    "tags": [
+      "High Pre-Sleep Screen Exposure"
+    ]
+  },
+  {
+    "id": "day-2026-11-16",
+    "date": "2026-11-16",
+    "timestamp": "2026-11-16T23:59:59Z",
+    "activity": {
+      "steps": 8361,
+      "active_minutes": 87,
+      "distance_km": 6.52,
+      "calories_burned": 2409,
+      "workout_type": "Brisk Walk"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.15,
+      "deep_sleep_hours": 1.86,
+      "rem_sleep_hours": 1.56,
+      "light_sleep_hours": 3.73,
+      "efficiency_score": 86,
+      "sleep_latency_minutes": 12,
+      "bedtime": "23:25",
+      "wake_time": "07:20"
+    },
+    "heart_rate": {
+      "resting_bpm": 60,
+      "average_bpm": 73,
+      "max_bpm": 160,
+      "hrv_ms": 61
+    },
+    "screen_time": {
+      "total_screen_hours": 7.5,
+      "late_night_screen_minutes": 10,
+      "productivity_hours": 4.8,
+      "entertainment_social_hours": 2.7,
+      "pickup_count": 75
+    },
+    "wellness_score": 88,
+    "tags": [
+      "High Deep Sleep Recovery"
+    ]
+  },
+  {
+    "id": "day-2026-11-17",
+    "date": "2026-11-17",
+    "timestamp": "2026-11-17T23:59:59Z",
+    "activity": {
+      "steps": 9400,
+      "active_minutes": 79,
+      "distance_km": 7.33,
+      "calories_burned": 2467,
+      "workout_type": "Strength Training"
+    },
+    "sleep": {
+      "total_sleep_hours": 6.29,
+      "deep_sleep_hours": 1.26,
+      "rem_sleep_hours": 1.26,
+      "light_sleep_hours": 3.77,
+      "efficiency_score": 71,
+      "sleep_latency_minutes": 30,
+      "bedtime": "00:27",
+      "wake_time": "07:42"
+    },
+    "heart_rate": {
+      "resting_bpm": 62,
+      "average_bpm": 74,
+      "max_bpm": 146,
+      "hrv_ms": 43
+    },
+    "screen_time": {
+      "total_screen_hours": 7.9,
+      "late_night_screen_minutes": 89,
+      "productivity_hours": 4.1,
+      "entertainment_social_hours": 3.8,
+      "pickup_count": 79
+    },
+    "wellness_score": 76,
+    "tags": [
+      "High Pre-Sleep Screen Exposure",
+      "Autonomic Fatigue Indicator"
+    ]
+  },
+  {
+    "id": "day-2026-11-18",
+    "date": "2026-11-18",
+    "timestamp": "2026-11-18T23:59:59Z",
+    "activity": {
+      "steps": 5102,
+      "active_minutes": 44,
+      "distance_km": 3.98,
+      "calories_burned": 2115,
+      "workout_type": "Running"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.03,
+      "deep_sleep_hours": 1.6,
+      "rem_sleep_hours": 1.55,
+      "light_sleep_hours": 3.88,
+      "efficiency_score": 85,
+      "sleep_latency_minutes": 10,
+      "bedtime": "23:48",
+      "wake_time": "08:17"
+    },
+    "heart_rate": {
+      "resting_bpm": 60,
+      "average_bpm": 73,
+      "max_bpm": 145,
+      "hrv_ms": 57
+    },
+    "screen_time": {
+      "total_screen_hours": 10.5,
+      "late_night_screen_minutes": 10,
+      "productivity_hours": 5.9,
+      "entertainment_social_hours": 4.6,
+      "pickup_count": 115
+    },
+    "wellness_score": 79,
+    "tags": [
+      "High Deep Sleep Recovery"
+    ]
+  },
+  {
+    "id": "day-2026-11-19",
+    "date": "2026-11-19",
+    "timestamp": "2026-11-19T23:59:59Z",
+    "activity": {
+      "steps": 7427,
+      "active_minutes": 72,
+      "distance_km": 5.79,
+      "calories_burned": 2364,
+      "workout_type": "Running"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.57,
+      "deep_sleep_hours": 1.67,
+      "rem_sleep_hours": 1.51,
+      "light_sleep_hours": 4.39,
+      "efficiency_score": 77,
+      "sleep_latency_minutes": 30,
+      "bedtime": "23:30",
+      "wake_time": "08:17"
+    },
+    "heart_rate": {
+      "resting_bpm": 62,
+      "average_bpm": 75,
+      "max_bpm": 161,
+      "hrv_ms": 55
+    },
+    "screen_time": {
+      "total_screen_hours": 9.5,
+      "late_night_screen_minutes": 53,
+      "productivity_hours": 5.6,
+      "entertainment_social_hours": 3.9,
+      "pickup_count": 133
+    },
+    "wellness_score": 82,
+    "tags": [
+      "High Deep Sleep Recovery"
+    ]
+  },
+  {
+    "id": "day-2026-11-20",
+    "date": "2026-11-20",
+    "timestamp": "2026-11-20T23:59:59Z",
+    "activity": {
+      "steps": 8912,
+      "active_minutes": 91,
+      "distance_km": 6.95,
+      "calories_burned": 2466,
+      "workout_type": "Yoga"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.5,
+      "deep_sleep_hours": 1.81,
+      "rem_sleep_hours": 1.55,
+      "light_sleep_hours": 4.14,
+      "efficiency_score": 83,
+      "sleep_latency_minutes": 23,
+      "bedtime": "23:45",
+      "wake_time": "06:29"
+    },
+    "heart_rate": {
+      "resting_bpm": 59,
+      "average_bpm": 71,
+      "max_bpm": 160,
+      "hrv_ms": 49
+    },
+    "screen_time": {
+      "total_screen_hours": 7.5,
+      "late_night_screen_minutes": 45,
+      "productivity_hours": 4.2,
+      "entertainment_social_hours": 3.3,
+      "pickup_count": 75
+    },
+    "wellness_score": 85,
+    "tags": [
+      "High Deep Sleep Recovery"
+    ]
+  },
+  {
+    "id": "day-2026-11-21",
+    "date": "2026-11-21",
+    "timestamp": "2026-11-21T23:59:59Z",
+    "activity": {
+      "steps": 6012,
+      "active_minutes": 58,
+      "distance_km": 4.69,
+      "calories_burned": 2239,
+      "workout_type": "Rest"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.27,
+      "deep_sleep_hours": 1.56,
+      "rem_sleep_hours": 1.49,
+      "light_sleep_hours": 4.22,
+      "efficiency_score": 78,
+      "sleep_latency_minutes": 25,
+      "bedtime": "23:25",
+      "wake_time": "08:29"
+    },
+    "heart_rate": {
+      "resting_bpm": 62,
+      "average_bpm": 75,
+      "max_bpm": 139,
+      "hrv_ms": 51
+    },
+    "screen_time": {
+      "total_screen_hours": 9.2,
+      "late_night_screen_minutes": 46,
+      "productivity_hours": 5.4,
+      "entertainment_social_hours": 3.8,
+      "pickup_count": 119
+    },
+    "wellness_score": 81,
+    "tags": [
+      "Balanced Baseline"
+    ]
+  },
+  {
+    "id": "day-2026-11-22",
+    "date": "2026-11-22",
+    "timestamp": "2026-11-22T23:59:59Z",
+    "activity": {
+      "steps": 6711,
+      "active_minutes": 69,
+      "distance_km": 5.23,
+      "calories_burned": 2351,
+      "workout_type": "Rest"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.14,
+      "deep_sleep_hours": 1.29,
+      "rem_sleep_hours": 1.35,
+      "light_sleep_hours": 4.5,
+      "efficiency_score": 69,
+      "sleep_latency_minutes": 41,
+      "bedtime": "00:19",
+      "wake_time": "08:10"
+    },
+    "heart_rate": {
+      "resting_bpm": 64,
+      "average_bpm": 78,
+      "max_bpm": 148,
+      "hrv_ms": 40
+    },
+    "screen_time": {
+      "total_screen_hours": 8.7,
+      "late_night_screen_minutes": 107,
+      "productivity_hours": 4.0,
+      "entertainment_social_hours": 4.7,
+      "pickup_count": 104
+    },
+    "wellness_score": 75,
+    "tags": [
+      "High Pre-Sleep Screen Exposure",
+      "Delayed Sleep Onset",
+      "Autonomic Fatigue Indicator"
+    ]
+  },
+  {
+    "id": "day-2026-11-23",
+    "date": "2026-11-23",
+    "timestamp": "2026-11-23T23:59:59Z",
+    "activity": {
+      "steps": 11990,
+      "active_minutes": 101,
+      "distance_km": 9.35,
+      "calories_burned": 2692,
+      "workout_type": "Strength Training"
+    },
+    "sleep": {
+      "total_sleep_hours": 6.5,
+      "deep_sleep_hours": 1.43,
+      "rem_sleep_hours": 1.27,
+      "light_sleep_hours": 3.8,
+      "efficiency_score": 72,
+      "sleep_latency_minutes": 35,
+      "bedtime": "00:43",
+      "wake_time": "08:30"
+    },
+    "heart_rate": {
+      "resting_bpm": 63,
+      "average_bpm": 73,
+      "max_bpm": 166,
+      "hrv_ms": 46
+    },
+    "screen_time": {
+      "total_screen_hours": 7.0,
+      "late_night_screen_minutes": 87,
+      "productivity_hours": 3.9,
+      "entertainment_social_hours": 3.1,
+      "pickup_count": 63
+    },
+    "wellness_score": 78,
+    "tags": [
+      "High Pre-Sleep Screen Exposure",
+      "Delayed Sleep Onset",
+      "Active Day Target Met"
+    ]
+  },
+  {
+    "id": "day-2026-11-24",
+    "date": "2026-11-24",
+    "timestamp": "2026-11-24T23:59:59Z",
+    "activity": {
+      "steps": 12807,
+      "active_minutes": 116,
+      "distance_km": 9.99,
+      "calories_burned": 2762,
+      "workout_type": "Brisk Walk"
+    },
+    "sleep": {
+      "total_sleep_hours": 7.07,
+      "deep_sleep_hours": 1.84,
+      "rem_sleep_hours": 1.46,
+      "light_sleep_hours": 3.77,
+      "efficiency_score": 85,
+      "sleep_latency_minutes": 24,
+      "bedtime": "23:41",
+      "wake_time": "08:25"
+    },
+    "heart_rate": {
+      "resting_bpm": 55,
+      "average_bpm": 67,
+      "max_bpm": 173,
+      "hrv_ms": 63
+    },
+    "screen_time": {
+      "total_screen_hours": 7.7,
+      "late_night_screen_minutes": 24,
+      "productivity_hours": 4.2,
+      "entertainment_social_hours": 3.5,
+      "pickup_count": 77
+    },
+    "wellness_score": 87,
+    "tags": [
+      "High Deep Sleep Recovery",
+      "Active Day Target Met"
+    ]
+  }
+]

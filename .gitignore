@@ -1,0 +1,31 @@
+# Environment & Secrets
+.env
+*.env
+config/firebase-service-account.json
+serviceAccountKey.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Local database storage fallback
+backend/data/local_db.json
+
+# System & IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+backend/data/users_db.json
+backend/data/habits_db.json

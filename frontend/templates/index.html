@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Know Thyself AI — Your Data. Your Intelligence.</title>
+  
+  <!-- Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="/static/css/main.css">
+  <link rel="stylesheet" href="/static/css/components.css">
+  <link rel="stylesheet" href="/static/css/responsive.css">
+
+  <!-- Lucide Icons & Chart.js -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       SECTION 1: PREMIUM COMMERCIAL LANDING PAGE
+       ========================================================================== -->
+  <div id="view-landing" class="landing-wrapper">
+    
+    <!-- Top Landing Navbar -->
+    <header class="landing-nav">
+      <div class="brand-badge" onclick="app.showLandingPage()">
+        <div class="brand-icon-wrapper">
+          <i data-lucide="brain-circuit" style="width: 24px; height: 24px;"></i>
+        </div>
+        <div class="brand-info">
+          <h1>Know Thyself AI</h1>
+          <div class="brand-tagline">Your Data. Your Intelligence.</div>
+        </div>
+      </div>
+
+      <nav class="landing-nav-links">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#" data-action="open-login">Sign In</a>
+        <button class="btn btn-primary" data-action="enter-demo">
+          <i data-lucide="sparkles"></i>
+          <span>Explore Demo</span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="landing-hero">
+      <div class="hero-left">
+        <div class="hackathon-pill" style="margin-bottom: 16px;">
+          <i data-lucide="award" style="width: 14px; height: 14px;"></i>
+          <span>wHACKiest 2026 • Team CORE FOUR</span>
+        </div>
+        <h1>Your Health Data Has a Story. Discover It.</h1>
+        <p>
+          Bring your sleep, activity, heart rate, and screen time together into one unified intelligence dashboard. Uncover the hidden cross-domain patterns behind your everyday habits.
+        </p>
+
+        <div class="hero-cta-group">
+          <button class="btn btn-primary" data-action="enter-demo" style="padding: 12px 24px; font-size: 0.95rem;">
+            <i data-lucide="play"></i>
+            <span>Explore My Wellness</span>
+          </button>
+          <a href="#features" class="btn btn-secondary" style="padding: 12px 22px; font-size: 0.95rem;">
+            <span>See How It Works</span>
+            <i data-lucide="arrow-down"></i>
+          </a>
+        </div>
+
+        <div class="hero-badge-strip">
+          <span><i data-lucide="check" style="color: var(--teal-primary); width: 16px; height: 16px;"></i> Apple Health & CSV Ready</span>
+          <span><i data-lucide="shield" style="color: var(--teal-primary); width: 16px; height: 16px;"></i> Local-First Privacy</span>
+          <span><i data-lucide="cpu" style="color: var(--violet-primary); width: 16px; height: 16px;"></i> Powered by Gemini AI</span>
+        </div>
+      </div>
+
+      <!-- Hero Floating Metric Cards Preview -->
+      <div class="hero-right">
+        <div class="preview-glow-backdrop"></div>
+
+        <!-- Floating Card 1 -->
+        <div class="floating-pill-card floating-pill-1">
+          <div class="card-icon violet" style="width: 32px; height: 32px;">
+            <i data-lucide="smartphone" style="width: 16px; height: 16px;"></i>
+          </div>
+          <div>
+            <div style="font-size: 0.72rem; color: var(--text-muted);">Pre-Bed Screen Time</div>
+            <div style="font-weight: 700; color: var(--rose-primary); font-size: 0.95rem;">-45m Curfew Active</div>
+          </div>
+        </div>
+
+        <!-- Main Center Preview Card -->
+        <div class="preview-main-card">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+            <span class="hero-pill" style="margin: 0;">Circadian Balance</span>
+            <span style="font-size: 0.8rem; color: var(--text-muted);">Live Telemetry</span>
+          </div>
+          <div style="display: flex; align-items: baseline; gap: 10px; margin-bottom: 10px;">
+            <span style="font-family: var(--font-display); font-size: 3.4rem; font-weight: 800; color: var(--teal-primary);">84</span>
+            <span style="font-size: 1.1rem; color: var(--text-secondary); font-weight: 600;">/ 100</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 18px; line-height: 1.5;">
+            "High autonomic resilience. Each 30m daylight walk correlated with +18% deep sleep recovery."
+          </p>
+          <div style="display: flex; gap: 8px;">
+            <span class="cluster-pill" style="font-size: 0.75rem; padding: 4px 10px;">HRV: 64ms</span>
+            <span class="cluster-pill" style="font-size: 0.75rem; padding: 4px 10px;">Steps: 9,450</span>
+            <span class="cluster-pill" style="font-size: 0.75rem; padding: 4px 10px;">Sleep: 7.6h</span>
+          </div>
+        </div>
+
+        <!-- Floating Card 2 -->
+        <div class="floating-pill-card floating-pill-2">
+          <div class="card-icon teal" style="width: 32px; height: 32px;">
+            <i data-lucide="moon" style="width: 16px; height: 16px;"></i>
+          </div>
+          <div>
+            <div style="font-size: 0.72rem; color: var(--text-muted);">Restorative Deep Sleep</div>
+            <div style="font-weight: 700; color: var(--teal-primary); font-size: 0.95rem;">+22% This Week</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Problem & Solution Section -->
+    <section class="landing-section" id="solution">
+      <div style="text-align: center; margin-bottom: 50px;">
+        <span class="section-tag">The Philosophy</span>
+        <h2 class="section-title">Why Fragmented Health Apps Fail You</h2>
+        <p class="section-desc" style="margin: 0 auto;">
+          Fitness trackers record steps. Smart beds record sleep. Phones monitor screen time. But nobody connects the dots.
+        </p>
+      </div>
+
+      <div class="grid-charts-equal">
+        <div class="card" style="border-left: 3px solid var(--rose-primary);">
+          <div class="card-icon rose" style="margin-bottom: 14px;"><i data-lucide="x-circle"></i></div>
+          <h3 style="font-size: 1.2rem; margin-bottom: 8px;">Siloed Telemetry (The Status Quo)</h3>
+          <p style="color: var(--text-secondary); font-size: 0.92rem; line-height: 1.6;">
+            You wake up tired with 8 hours in bed, but your fitness tracker doesn't know you spent 90 minutes scrolling social feeds in the dark. Isolated metrics hide the root causes of fatigue.
+          </p>
+        </div>
+
+        <div class="card" style="border-left: 3px solid var(--teal-primary);">
+          <div class="card-icon teal" style="margin-bottom: 14px;"><i data-lucide="sparkles"></i></div>
+          <h3 style="font-size: 1.2rem; margin-bottom: 8px;">Know Thyself AI (Unified Intelligence)</h3>
+          <p style="color: var(--text-secondary); font-size: 0.92rem; line-height: 1.6;">
+            We cross-analyze activity, screen friction, cardiovascular autonomic rhythm, and sleep architecture. You receive non-obvious, actionable lifestyle insights personalized to your unique physiology.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 Key Features Section -->
+    <section class="landing-section" id="features">
+      <div style="text-align: center; margin-bottom: 50px;">
+        <span class="section-tag">Feature Suite</span>
+        <h2 class="section-title">Engineered for Personal Intelligence</h2>
+        <p class="section-desc" style="margin: 0 auto;">
+          Cutting-edge machine learning and Google Gemini AI working on your personal telemetry.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        
+        <div class="feature-box">
+          <div class="feature-icon-wrapper teal"><i data-lucide="network"></i></div>
+          <h3>Cross-Domain Correlations</h3>
+          <p>Discovers non-obvious relationships like how pre-bed phone usage directly affects your deep sleep duration and morning HRV.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrapper violet"><i data-lucide="moon-star"></i></div>
+          <h3>Circadian Sleep Architecture</h3>
+          <p>Deep dives into REM dream states, restorative slow-wave sleep, and sleep onset latency against your scheduled bedtime.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrapper teal"><i data-lucide="heart-pulse"></i></div>
+          <h3>Autonomic HRV Analytics</h3>
+          <p>Monitors Heart Rate Variability in milliseconds to assess parasympathetic nervous system recovery and physiological stress.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrapper violet"><i data-lucide="eye-off"></i></div>
+          <h3>Digital Screen Boundary Index</h3>
+          <p>Measures late-night screen time within 2 hours of sleep, providing digital curfew protocols to preserve natural melatonin secretion.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrapper teal"><i data-lucide="layers"></i></div>
+          <h3>KMeans Lifestyle Archetypes</h3>
+          <p>Scikit-learn unsupervised clustering categorizes your days into distinct behavioral archetypes so you can replicate your best days.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrapper violet"><i data-lucide="message-square-heart"></i></div>
+          <h3>Gemini AI Wellness Copilot</h3>
+          <p>"Ask Your Data" allows natural language queries grounded directly in your verified biometric numbers with strict wellness disclaimers.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="landing-section" id="how-it-works">
+      <div style="text-align: center; margin-bottom: 50px;">
+        <span class="section-tag">Methodology</span>
+        <h2 class="section-title">How Know Thyself AI Works</h2>
+      </div>
+
+      <div class="steps-timeline">
+        <div class="step-card">
+          <div class="step-number">01</div>
+          <h3 style="font-size: 1.15rem; margin-bottom: 8px;">Aggregate Telemetry</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.55;">
+            Input your metrics manually, upload standard fitness CSV exports, or initialize the realistic 30-day demonstration dataset.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">02</div>
+          <h3 style="font-size: 1.15rem; margin-bottom: 8px;">ML Feature Extraction</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.55;">
+            Pandas & Scikit-learn compute Pearson cross-correlations, detect baseline physiological anomalies, and cluster lifestyle archetypes.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">03</div>
+          <h3 style="font-size: 1.15rem; margin-bottom: 8px;">Gemini Synthesis & Habits</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.55;">
+            Google Gemini translates biological telemetry into structured circadian prescriptions, micro-habits, and executive PDF reports.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Privacy & Data Control Section -->
+    <section class="landing-section" id="privacy">
+      <div class="card" style="border-color: rgba(0, 255, 157, 0.4); padding: 40px; box-shadow: 0 0 25px rgba(0, 255, 157, 0.15);">
+        <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 16px;">
+          <div class="card-icon teal" style="width: 48px; height: 48px;"><i data-lucide="shield-check" style="width: 26px; height: 26px;"></i></div>
+          <div>
+            <h2 style="font-size: 1.6rem; font-weight: 700;">Your Data. Your Sovereignty.</h2>
+            <div style="color: var(--teal-primary); font-size: 0.85rem; font-weight: 600;">Zero Data Monetization • Local-First Architecture</div>
+          </div>
+        </div>
+        <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 18px;">
+          We believe personal health data belongs exclusively to you. Know Thyself AI never sells your biometric metrics or trains public foundation models on private records. You have complete 1-click JSON and CSV export capabilities and can purge your data at any time.
+        </p>
+        <div class="medical-disclaimer-box">
+          <i data-lucide="info" style="width: 18px; height: 18px; color: var(--violet-primary); flex-shrink: 0;"></i>
+          <span><strong>Wellness Awareness Disclaimer:</strong> Know Thyself AI is an educational lifestyle intelligence application. It is not designed to diagnose, treat, or prevent any medical disease or clinical condition.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final Call to Action -->
+    <section class="cta-banner">
+      <h2 style="font-family: var(--font-display); font-size: 2.4rem; font-weight: 800; margin-bottom: 16px;">
+        Ready to Uncover Your Health Data's Story?
+      </h2>
+      <p style="color: var(--text-secondary); font-size: 1.05rem; margin-bottom: 28px; max-width: 600px; margin-left: auto; margin-right: auto;">
+        Join wHACKiest 2026 evaluators and explore the interactive wellness intelligence dashboard in 1 click.
+      </p>
+      <div style="display: flex; justify-content: center; gap: 16px;">
+        <button class="btn btn-primary" data-action="enter-demo" style="padding: 12px 28px; font-size: 1rem;">
+          <i data-lucide="zap"></i>
+          <span>Launch Live Demo Dashboard</span>
+        </button>
+        <button class="btn btn-secondary" data-action="open-login" style="padding: 12px 24px; font-size: 1rem;">
+          <span>Sign In / Register</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Professional Landing Footer -->
+    <footer class="landing-footer">
+      <div>
+        <strong>Know Thyself AI</strong> — wHACKiest 2026 Hackathon Prototype • Team CORE FOUR
+      </div>
+      <div>
+        <span>Python Flask • Pandas • Scikit-learn • Google Gemini • Chart.js</span>
+      </div>
+    </footer>
+
+  </div>
+
+
+  <!-- ==========================================================================
+       SECTION 2: MAIN DASHBOARD SHELL & SIDEBAR NAVIGATION
+       ========================================================================== -->
+  <div id="app-shell" class="app-container" style="display: none;">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="app-sidebar">
+      <div class="sidebar-header">
+        <div class="brand-badge">
+          <div class="brand-icon-wrapper">
+            <i data-lucide="brain-circuit" style="width: 24px; height: 24px;"></i>
+          </div>
+          <div class="brand-info">
+            <h1>Know Thyself AI</h1>
+            <div class="brand-tagline">Your Data. Your Intelligence.</div>
+          </div>
+        </div>
+        <div class="hackathon-pill">
+          <i data-lucide="award" style="width: 12px; height: 12px;"></i>
+          <span>wHACKiest 2026 • Team CORE FOUR</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-title">Telemetry Intelligence</div>
+        
+        <a class="nav-item active" data-view="overview">
+          <i data-lucide="layout-dashboard"></i>
+          <span>Overview</span>
+        </a>
+
+        <a class="nav-item" data-view="activity">
+          <i data-lucide="activity"></i>
+          <span>Activity & Cardio</span>
+        </a>
+
+        <a class="nav-item" data-view="sleep">
+          <i data-lucide="moon"></i>
+          <span>Sleep Architecture</span>
+        </a>
+
+        <a class="nav-item" data-view="heart">
+          <i data-lucide="heart-pulse"></i>
+          <span>Heart Health & HRV</span>
+        </a>
+
+        <a class="nav-item" data-view="screentime">
+          <i data-lucide="smartphone"></i>
+          <span>Screen Time & Focus</span>
+        </a>
+
+        <div class="nav-section-title">AI & Synthesis</div>
+
+        <a class="nav-item" data-view="ai">
+          <i data-lucide="sparkles"></i>
+          <span>Gemini AI Insights</span>
+        </a>
+
+        <a class="nav-item" data-view="copilot">
+          <i data-lucide="message-square-heart"></i>
+          <span>AI Wellness Copilot</span>
+        </a>
+
+        <a class="nav-item" data-view="recommendations">
+          <i data-lucide="target"></i>
+          <span>Recommendations</span>
+        </a>
+
+        <a class="nav-item" data-view="habits">
+          <i data-lucide="check-circle-2"></i>
+          <span>Habit Tracker</span>
+        </a>
+
+        <a class="nav-item" data-view="reports">
+          <i data-lucide="file-text"></i>
+          <span>Executive Reports</span>
+        </a>
+
+        <div class="nav-section-title">Data & Platform</div>
+
+        <a class="nav-item" data-view="data">
+          <i data-lucide="database"></i>
+          <span>Data & CSV Ingestion</span>
+        </a>
+
+        <a class="nav-item" data-view="settings">
+          <i data-lucide="settings"></i>
+          <span>Settings & Privacy</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="system-status-box">
+          <div class="status-row">
+            <span class="status-label"><span class="status-dot"></span>Database:</span>
+            <span class="status-value" id="system-db-mode">Local Datastore</span>
+          </div>
+          <div class="status-row">
+            <span class="status-label">Active Records:</span>
+            <span class="status-value" id="system-records-count">30 Days</span>
+          </div>
+          <div class="status-row">
+            <span class="status-label">AI Engine:</span>
+            <span class="status-value" id="system-ai-status">Active</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="app-main">
+      
+      <!-- Top Sticky Navigation Bar -->
+      <header class="app-header">
+        <div class="header-left">
+          <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation">
+            <i data-lucide="menu"></i>
+          </button>
+          <div class="view-heading">
+            <h2 id="view-title">Executive Overview</h2>
+            <div class="view-subheading" id="view-subtitle">Holistic Biometric Telemetry & Correlation Index</div>
+          </div>
+        </div>
+
+        <div class="header-right">
+          <!-- Time Range Selector -->
+          <div class="time-range-picker">
+            <button class="range-btn" data-range="7">7D</button>
+            <button class="range-btn active" data-range="14">14D</button>
+            <button class="range-btn" data-range="30">30D</button>
+          </div>
+
+          <!-- Refresh Button -->
+          <button class="btn btn-secondary btn-icon-only" id="btn-refresh" title="Refresh Telemetry">
+            <i data-lucide="refresh-cw"></i>
+          </button>
+
+          <!-- Notification Bell with Dropdown Drawer -->
+          <button class="btn btn-secondary btn-icon-only" id="btn-notif-bell" title="Notifications">
+            <i data-lucide="bell"></i>
+            <span class="notif-badge" id="notif-unread-badge" style="display: none;">0</span>
+          </button>
+
+          <!-- Notifications Floating Dropdown -->
+          <div class="notifications-dropdown" id="notifications-dropdown">
+            <div class="notif-header">
+              <strong style="font-size: 0.9rem; color: var(--text-primary);">Smart Nudges & Reminders</strong>
+              <span style="font-size: 0.75rem; color: var(--teal-primary);">In-App Telemetry</span>
+            </div>
+            <div class="notif-list" id="notifications-list-container">
+              <!-- Rendered via components.js -->
+            </div>
+          </div>
+
+          <!-- Quick Action: Log Entry -->
+          <button class="btn btn-secondary" id="btn-header-log">
+            <i data-lucide="plus"></i>
+            <span class="btn-text-hide">Log Entry</span>
+          </button>
+
+          <!-- Quick Action: AI Report -->
+          <button class="btn btn-ai" id="btn-header-ai">
+            <i data-lucide="sparkles"></i>
+            <span>AI Report</span>
+          </button>
+
+          <!-- User Profile Pill -->
+          <div class="user-profile-pill" onclick="app.switchView('settings')">
+            <div class="user-avatar-circle" id="user-avatar-initials">AM</div>
+            <span class="user-name-label btn-text-hide" id="user-display-name">Alex Morgan</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Dynamic Content Views Container -->
+      <div class="content-body">
+        
+        <!-- ================= VIEW 1: OVERVIEW ================= -->
+        <section class="view-section active" id="view-overview">
+          
+          <!-- Hero Score Card -->
+          <div class="card hero-wellness-card">
+            <div class="hero-content">
+              <span class="hero-pill"><i data-lucide="shield-check" style="width: 14px; height: 14px;"></i> Circadian Balance Index</span>
+              <h2>Your Biological System is Resilient</h2>
+              <p>Combining activity, sleep architecture, heart rate variability, and digital screen boundaries to discover non-obvious lifestyle connections.</p>
+              <div style="margin-top: 10px; font-size: 0.78rem; color: var(--text-muted);">
+                * Illustrative wellness score based on personal lifestyle telemetry. Not a clinical medical score.
+              </div>
+            </div>
+            <div class="hero-score-badge">
+              <div class="hero-score-val" id="hero-score-val">--</div>
+              <div class="hero-score-label" id="hero-score-status">Optimal</div>
+            </div>
+          </div>
+
+          <!-- 4 Core Metric KPI Tiles -->
+          <div class="grid-metrics">
+            
+            <!-- 1. Steps Card -->
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <div class="card-icon teal"><i data-lucide="footprints"></i></div>
+                  <div>
+                    <div class="card-title">Daily Steps</div>
+                    <div class="card-subtitle">Movement Target</div>
+                  </div>
+                </div>
+                <div id="metric-steps-delta"></div>
+              </div>
+              <div class="metric-value-box">
+                <span class="metric-big-num" id="metric-steps-val">--</span>
+                <span class="metric-unit">avg / day</span>
+              </div>
+              <div class="metric-substats">
+                <span>Active: <strong id="metric-active-mins">--m</strong></span>
+                <span>Burn: <strong id="metric-calories">-- kcal</strong></span>
+              </div>
+            </div>
+
+            <!-- 2. Sleep Performance Card -->
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <div class="card-icon violet"><i data-lucide="moon"></i></div>
+                  <div>
+                    <div class="card-title">Sleep Duration</div>
+                    <div class="card-subtitle">Restorative Rest</div>
+                  </div>
+                </div>
+                <div id="metric-sleep-delta"></div>
+              </div>
+              <div class="metric-value-box">
+                <span class="metric-big-num" id="metric-sleep-val">--</span>
+                <span class="metric-unit">hours / night</span>
+              </div>
+              <div class="metric-substats">
+                <span>Deep: <strong id="metric-sleep-deep">--h</strong></span>
+                <span>Efficiency: <strong id="metric-sleep-eff">--%</strong></span>
+              </div>
+            </div>
+
+            <!-- 3. Heart Rate & HRV Card -->
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <div class="card-icon amber"><i data-lucide="heart-pulse"></i></div>
+                  <div>
+                    <div class="card-title">Resting Heart Rate</div>
+                    <div class="card-subtitle">Autonomic Tone</div>
+                  </div>
+                </div>
+                <div id="metric-hr-delta"></div>
+              </div>
+              <div class="metric-value-box">
+                <span class="metric-big-num" id="metric-hr-val">--</span>
+                <span class="metric-unit">BPM avg</span>
+              </div>
+              <div class="metric-substats">
+                <span>HRV: <strong id="metric-hrv">-- ms</strong></span>
+                <span>Adaptability: <strong style="color: var(--teal-primary);">High</strong></span>
+              </div>
+            </div>
+
+            <!-- 4. Screen Time Card -->
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <div class="card-icon rose"><i data-lucide="smartphone"></i></div>
+                  <div>
+                    <div class="card-title">Screen Time</div>
+                    <div class="card-subtitle">Digital Exposure</div>
+                  </div>
+                </div>
+                <div id="metric-screen-delta"></div>
+              </div>
+              <div class="metric-value-box">
+                <span class="metric-big-num" id="metric-screen-val">--</span>
+                <span class="metric-unit">hours / day</span>
+              </div>
+              <div class="metric-substats">
+                <span>Pre-Bed: <strong id="metric-late-screen">--m</strong></span>
+                <span>Friction: <strong style="color: var(--amber-primary);">Moderate</strong></span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Dual Primary Charts -->
+          <div class="grid-charts-primary">
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <div class="card-icon teal"><i data-lucide="trending-up"></i></div>
+                  <div>
+                    <div class="card-title">Holistic Wellness & Sleep Trajectory</div>
+                    <div class="card-subtitle">Tracking longitudinal physiological stability</div>
+                  </div>
+                </div>
+              </div>
+              <div class="chart-container">
+                <canvas id="chart-overview-trajectory"></canvas>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <div class="card-icon violet"><i data-lucide="zap"></i></div>
+                  <div>
+                    <div class="card-title">Screen Time vs Sleep Latency</div>
+                    <div class="card-subtitle">Direct behavioural interference correlation</div>
+                  </div>
+                </div>
+              </div>
+              <div class="chart-container">
+                <canvas id="chart-screen-latency-overview"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Behavioural Pattern Discoveries (Pearson Correlations) -->
+          <div class="card" style="margin-bottom: 24px;">
+            <div class="card-header">
+              <div class="card-title-group">
+                <div class="card-icon teal"><i data-lucide="compass"></i></div>
+                <div>
+                  <div class="card-title">Discovered Behavioural Patterns & Correlations</div>
+                  <div class="card-subtitle">Computed via Pandas cross-domain Pearson analytics (Correlation ≠ Causation)</div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-insights" id="overview-correlations-container">
+              <!-- Rendered via components.js -->
+            </div>
+          </div>
+
+          <!-- Lifestyle Archetypes (KMeans Clustering) -->
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <div class="card-icon violet"><i data-lucide="layers"></i></div>
+                <div>
+                  <div class="card-title">Lifestyle Archetypes (Scikit-Learn KMeans Clustering)</div>
+                  <div class="card-subtitle">Categorization of days into biological clusters</div>
+                </div>
+              </div>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 12px;" id="overview-clusters-container">
+              <!-- Rendered via components.js -->
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ================= VIEW 2: ACTIVITY ================= -->
+        <section class="view-section" id="view-activity">
+          <div class="card" style="margin-bottom: 24px;">
+            <div class="card-header">
+              <div class="card-title-group">
+                <div class="card-icon teal"><i data-lucide="activity"></i></div>
+                <div>
+                  <div class="card-title">Movement & Activity Trends</div>
+                  <div class="card-subtitle">Daily Steps vs HRV & Cardio Output</div>
+                </div>
+              </div>
+            </div>
+            <div class="chart-container" style="min-height: 380px;">
+              <canvas id="chart-activity-main"></canvas>
+            </div>
+          </div>
+
+          <div class="grid-charts-equal">
+            <div class="card">
+              <h3 style="font-size: 1.1rem; margin-bottom: 8px;">Activity Goals & Caloric Output</h3>
+              <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">
+                Reaching 8,500 daily steps is statistically linked with a 24% increase in your slow-wave deep sleep. Schedule midday walks to support physical recovery.
+              </p>
+            </div>
+            <div class="card">
+              <h3 style="font-size: 1.1rem; margin-bottom: 8px;">Zone 2 Cardio & HRV Response</h3>
+              <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">
+                Lower-intensity sustained movement maintains a balanced resting heart rate (58-62 BPM) without inducing autonomic overtraining fatigue.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= VIEW 3: SLEEP ================= -->
+        <section class="view-section" id="view-sleep">
+          <div class="card" style="margin-bottom: 24px;">
+            <div class="card-header">
+              <div class="card-title-group">
+                <div class="card-icon violet"><i data-lucide="moon"></i></div>
+                <div>
+                  <div class="card-title">Sleep Architecture Stages</div>
+                  <div class="card-subtitle">Deep Slow-Wave Sleep vs REM Dream States across monitored days</div>
+                </div>
+              </div>
+            </div>
+            <div class="chart-container" style="min-height: 380px;">
+              <canvas id="chart-sleep-stages-main"></canvas>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= VIEW 4: HEART HEALTH ================= -->
+        <section class="view-section" id="view-heart">
+          <div class="card" style="margin-bottom: 24px;">
+            <div class="card-header">
+              <div class="card-title-group">
+                <div class="card-icon amber"><i data-lucide="heart-pulse"></i></div>
+                <div>
+                  <div class="card-title">Cardiovascular Autonomic Rhythm</div>
+                  <div class="card-subtitle">Heart Rate Variability (HRV ms) vs Resting Heart Rate & Daily Steps</div>
+                </div>
+              </div>
+            </div>
+            <div class="chart-container" style="min-height: 380px;">
+              <canvas id="chart-heart-main"></canvas>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= VIEW 5: SCREEN TIME ================= -->
+        <section class="view-section" id="view-screentime">
+          <div class="grid-charts-equal">
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <div class="card-icon rose"><i data-lucide="smartphone"></i></div>
+                  <div>
+                    <div class="card-title">Total Digital Screen Hours</div>
+                    <div class="card-subtitle">Daily engagement progression</div>
+                  </div>
+                </div>
+              </div>
+              <div class="chart-container">
+                <canvas id="chart-screentime-main"></canvas>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <div class="card-icon violet"><i data-lucide="moon-star"></i></div>
+                  <div>
+                    <div class="card-title">Pre-Bed Exposure vs Sleep Delay</div>
+                    <div class="card-subtitle">Minutes within 2 hours of planned bedtime</div>
+                  </div>
+                </div>
+              </div>
+              <div class="chart-container">
+                <canvas id="chart-screentime-latency-main"></canvas>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= VIEW 6: AI INSIGHTS ================= -->
+        <section class="view-section" id="view-ai">
+          <div class="card" style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.18), rgba(255, 42, 133, 0.12)); border-color: rgba(168, 85, 247, 0.45); margin-bottom: 24px; box-shadow: 0 0 25px rgba(168, 85, 247, 0.2);">
+            <div class="card-header">
+              <div class="card-title-group">
+                <div class="card-icon violet"><i data-lucide="sparkles"></i></div>
+                <div>
+                  <div class="card-title" style="font-size: 1.15rem;">Google Gemini Wellness Intelligence Engine</div>
+                  <div class="card-subtitle">Synthesizing holistic physiology and behavioural science</div>
+                </div>
+              </div>
+              <button class="btn btn-ai" onclick="app.loadAIRecommendations(true)">
+                <i data-lucide="refresh-cw"></i>
+                <span>Re-Synthesize</span>
+              </button>
+            </div>
+          </div>
+
+          <div id="ai-recommendations-container">
+            <!-- Rendered via components.js -->
+          </div>
+        </section>
+
+        <!-- ================= VIEW 7: AI WELLNESS COPILOT ================= -->
+        <section class="view-section" id="view-copilot">
+          <div class="card" style="margin-bottom: 24px;">
+            <div class="card-header">
+              <div class="card-title-group">
+                <div class="card-icon teal"><i data-lucide="message-square-heart"></i></div>
+                <div>
+                  <div class="card-title">AI Wellness Copilot ("Ask Your Data")</div>
+                  <div class="card-subtitle">Conversational intelligence grounded in your personal telemetry</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="chat-container">
+              <div class="chat-messages" id="chat-messages">
+                <div class="chat-bubble bot">
+                  <div style="font-size: 0.72rem; color: var(--teal-primary); font-weight: 700; margin-bottom: 4px;">Know Thyself AI Copilot</div>
+                  Hello! I am your AI Wellness Copilot. I have analyzed your activity, sleep stages, HRV, and screen patterns. Ask me anything about your trends, correlations, or how to optimize your lifestyle.
+                </div>
+              </div>
+
+              <!-- Quick query chips -->
+              <div class="chat-quick-queries">
+                <button class="query-chip" data-query="How many steps did I take this week?">Steps this week?</button>
+                <button class="query-chip" data-query="How does late-night screen time affect my sleep?">How screen time affects sleep?</button>
+                <button class="query-chip" data-query="Explain what my heart rate variability means">Explain my HRV reading</button>
+                <button class="query-chip" data-query="What patterns do you notice in my activity and sleep?">Activity vs Sleep patterns</button>
+                <button class="query-chip" data-query="What can I improve in my daily routine?">Recommend daily routine</button>
+              </div>
+
+              <form class="chat-input-bar" id="chat-form">
+                <input type="text" class="chat-input" id="chat-input" placeholder="Ask your data anything (e.g., 'Why was my deep sleep low on Tuesday?')..." autocomplete="off">
+                <button type="submit" class="btn btn-primary">
+                  <i data-lucide="send"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= VIEW 8: RECOMMENDATIONS ================= -->
+        <section class="view-section" id="view-recommendations">
+          <div id="recommendations-page-container">
+            <!-- Rendered via components.js -->
+          </div>
+        </section>
+
+        <!-- ================= VIEW 9: HABIT TRACKER ================= -->
+        <section class="view-section" id="view-habits">
+          <div class="card habit-tracker-card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <div class="card-icon teal"><i data-lucide="check-circle-2"></i></div>
+                <div>
+                  <div class="card-title">Daily Habit Adherence Checklist</div>
+                  <div class="card-subtitle">Click items to complete for today</div>
+                </div>
+              </div>
+              <div style="font-size: 0.9rem; color: var(--teal-primary); font-weight: 700;">
+                Today's Completion: <span id="habits-completion-pct">0%</span>
+              </div>
+            </div>
+
+            <div class="habit-checklist" id="habits-checklist-container">
+              <!-- Rendered via components.js -->
+            </div>
+
+            <div style="margin-top: 24px; padding-top: 18px; border-top: 1px solid var(--border-subtle);">
+              <h3 style="font-size: 1.05rem; margin-bottom: 6px;">28-Day Consistency Matrix (Heatmap)</h3>
+              <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 12px;">Visual consistency index across the last 4 weeks</p>
+              <div class="heatmap-container" id="habits-heatmap-container">
+                <!-- Rendered via components.js -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= VIEW 10: REPORTS ================= -->
+        <section class="view-section" id="view-reports">
+          <div class="card" style="margin-bottom: 24px;">
+            <div class="card-header">
+              <div class="card-title-group">
+                <div class="card-icon violet"><i data-lucide="file-text"></i></div>
+                <div>
+                  <div class="card-title">Executive Wellness Intelligence Reports</div>
+                  <div class="card-subtitle">Publishable PDF and CSV exports for personal record-keeping</div>
+                </div>
+              </div>
+              <div style="display: flex; gap: 10px;">
+                <button class="btn btn-secondary" id="btn-export-csv">
+                  <i data-lucide="table"></i>
+                  <span>Export CSV</span>
+                </button>
+                <button class="btn btn-primary" id="btn-download-pdf">
+                  <i data-lucide="download"></i>
+                  <span>Download PDF Report</span>
+                </button>
+              </div>
+            </div>
+            <p style="color: var(--text-secondary); font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px;">
+              Generate an official ReportLab PDF wellness document summarizing your 7-day or 30-day biometrics, Scikit-learn clusters, and cross-domain correlation findings with full medical disclaimers.
+            </p>
+            <div class="medical-disclaimer-box">
+              <i data-lucide="shield-alert" style="width: 18px; height: 18px; color: var(--violet-primary); flex-shrink: 0;"></i>
+              <span>All exported reports prominently state: <em>"Confidential Wellness Summary — Illustrative awareness document; not a clinical medical assessment."</em></span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= VIEW 11: DATA MANAGEMENT & CSV ================= -->
+        <section class="view-section" id="view-data">
+          
+          <div class="card" style="margin-bottom: 24px;">
+            <div class="card-header">
+              <div class="card-title-group">
+                <div class="card-icon teal"><i data-lucide="upload-cloud"></i></div>
+                <div>
+                  <div class="card-title">CSV Telemetry Ingestion</div>
+                  <div class="card-subtitle">Drag-and-drop your fitness tracker CSV files (Apple Health, Garmin, Oura, Fitbit format)</div>
+                </div>
+              </div>
+              <a href="/api/upload/sample-csv" class="btn btn-secondary" download>
+                <i data-lucide="file-down"></i>
+                <span>Download Sample CSV</span>
+              </a>
+            </div>
+
+            <!-- Drag and drop zone -->
+            <div class="csv-upload-dropzone" id="csv-dropzone">
+              <div class="upload-icon-circle"><i data-lucide="upload" style="width: 24px; height: 24px;"></i></div>
+              <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 6px;">Drop your wellness CSV here, or click to browse</h3>
+              <p style="font-size: 0.85rem; color: var(--text-muted);">Supports date, steps, sleep_hours, resting_hr, and screen_time columns</p>
+              <input type="file" id="csv-file-input" accept=".csv" style="display: none;">
+            </div>
+
+            <!-- CSV Preview Section -->
+            <div id="csv-preview-container" style="display: none; margin-top: 18px; border-top: 1px solid var(--border-subtle); padding-top: 18px;">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                <h4 style="font-size: 1rem; color: var(--text-primary);">CSV Ingestion Diagnostics & Preview</h4>
+                <button class="btn btn-primary" id="btn-confirm-csv-import">
+                  <i data-lucide="check"></i>
+                  <span>Confirm & Import Telemetry</span>
+                </button>
+              </div>
+              <div id="csv-preview-stats"></div>
+              <div class="data-table-wrapper" style="max-height: 220px;">
+                <table class="data-table">
+                  <thead id="csv-preview-thead"></thead>
+                  <tbody id="csv-preview-tbody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Historical Table -->
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <div class="card-icon violet"><i data-lucide="table"></i></div>
+                <div>
+                  <div class="card-title">Historical Telemetry Log</div>
+                  <div class="card-subtitle">Verified daily records stored in database</div>
+                </div>
+              </div>
+              <div style="display: flex; gap: 10px;">
+                <button class="btn btn-secondary" id="btn-reset-data">
+                  <i data-lucide="rotate-ccw"></i>
+                  <span>Reset to Sample Data</span>
+                </button>
+                <button class="btn btn-primary" onclick="app.openModal('modal-log-entry')">
+                  <i data-lucide="plus"></i>
+                  <span>Manual Entry</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="data-table-wrapper">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Score</th>
+                    <th>Activity</th>
+                    <th>Sleep</th>
+                    <th>Heart Rate / HRV</th>
+                    <th>Screen Time</th>
+                    <th>Tag</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="data-table-body">
+                  <!-- Rendered via components.js -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ================= VIEW 12: SETTINGS ================= -->
+        <section class="view-section" id="view-settings">
+          <div class="card" style="margin-bottom: 24px;">
+            <div class="card-header">
+              <div class="card-title-group">
+                <div class="card-icon teal"><i data-lucide="user"></i></div>
+                <div>
+                  <div class="card-title">User Profile & Physical Attributes</div>
+                  <div class="card-subtitle">Personalized baseline parameters</div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-control" value="Alex Morgan" id="settings-name">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Email Address</label>
+                <input type="email" class="form-control" value="demo@knowthyself.ai" disabled>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Age</label>
+                <input type="number" class="form-control" value="28">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Activity Baseline</label>
+                <select class="form-control">
+                  <option selected>Moderately Active (7,500 - 10,000 steps)</option>
+                  <option>Highly Active (10,000+ steps)</option>
+                  <option>Sedentary / Desk Work (&lt; 6,000 steps)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="margin-bottom: 24px;">
+            <div class="card-header">
+              <div class="card-title-group">
+                <div class="card-icon violet"><i data-lucide="shield"></i></div>
+                <div>
+                  <div class="card-title">Privacy & Data Sovereignty</div>
+                  <div class="card-subtitle">Manage or purge your personal telemetry</div>
+                </div>
+              </div>
+            </div>
+            <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin-bottom: 14px;">
+              You have full ownership of all stored metrics. You can download a complete JSON export or perform a session logout anytime.
+            </p>
+            <div style="display: flex; gap: 12px;">
+              <button class="btn btn-secondary" onclick="app.showLandingPage()">
+                <i data-lucide="home"></i>
+                <span>Return to Landing Page</span>
+              </button>
+              <button class="btn btn-secondary" onclick="app.handleLogout()" style="border-color: rgba(244, 63, 94, 0.4); color: var(--rose-primary);">
+                <i data-lucide="log-out"></i>
+                <span>Sign Out</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+  </div>
+
+
+  <!-- ==========================================================================
+       MODAL 1: AUTHENTICATION (LOGIN / REGISTER / DEMO)
+       ========================================================================== -->
+  <div class="modal-overlay" id="modal-auth">
+    <div class="modal-dialog" style="max-width: 440px;">
+      <div class="modal-header">
+        <div class="brand-badge">
+          <div class="brand-icon-wrapper" style="width: 34px; height: 34px;">
+            <i data-lucide="brain-circuit" style="width: 20px; height: 20px;"></i>
+          </div>
+          <div>
+            <div style="font-weight: 700; color: var(--text-primary); font-size: 1.05rem;">Know Thyself AI</div>
+            <div style="font-size: 0.72rem; color: var(--teal-primary);">Your Data. Your Intelligence.</div>
+          </div>
+        </div>
+        <button class="btn-icon-only" data-modal-close aria-label="Close dialog">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+
+      <!-- Demo Evaluator 1-Click Banner -->
+      <div style="padding: 16px 24px 0;">
+        <button class="btn btn-primary" data-action="enter-demo" style="width: 100%; justify-content: center; padding: 12px; font-size: 0.92rem;">
+          <i data-lucide="zap"></i>
+          <span>1-Click Hackathon Evaluator Demo</span>
+        </button>
+        <div style="text-align: center; margin: 14px 0 10px; font-size: 0.75rem; color: var(--text-muted); position: relative;">
+          <span>— or sign in with email —</span>
+        </div>
+      </div>
+
+      <!-- Tabs: Sign In / Create Account -->
+      <div style="display: flex; border-bottom: 1px solid var(--border-subtle); padding: 0 24px;">
+        <button id="tab-auth-login" class="range-btn active" style="flex: 1; border-radius: 0; padding: 10px; border-bottom: 2px solid var(--teal-primary);">Sign In</button>
+        <button id="tab-auth-register" class="range-btn" style="flex: 1; border-radius: 0; padding: 10px;">Register</button>
+      </div>
+
+      <form id="form-auth">
+        <div class="modal-body" style="padding-top: 20px;">
+          <div class="form-group" id="auth-name-group" style="display: none;">
+            <label class="form-label">Your Name</label>
+            <input type="text" id="auth-name" class="form-control" placeholder="Alex Morgan">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <input type="email" id="auth-email" class="form-control" placeholder="you@domain.com" required value="demo@knowthyself.ai">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Password</label>
+            <div style="position: relative;">
+              <input type="password" id="auth-password" class="form-control" placeholder="••••••••" required value="demo1234">
+              <button type="button" class="btn-icon-only password-toggle-btn" style="position: absolute; right: 4px; top: 4px; background: transparent; border: none;">
+                <i data-lucide="eye" style="width: 16px; height: 16px;"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-modal-close>Cancel</button>
+          <button type="submit" class="btn btn-primary" id="auth-submit-btn">Sign In</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- ==========================================================================
+       MODAL 2: MULTI-STEP ONBOARDING WIZARD
+       ========================================================================== -->
+  <div class="modal-overlay" id="modal-onboarding">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="card-title-group">
+          <div class="card-icon teal"><i data-lucide="compass"></i></div>
+          <div>
+            <div class="card-title">Personal Wellness Baseline Setup</div>
+            <div class="card-subtitle">5-step guided onboarding wizard</div>
+          </div>
+        </div>
+        <button class="btn-icon-only" data-modal-close aria-label="Close dialog">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Progress Indicator -->
+        <div class="onboarding-progress-bar">
+          <div class="progress-step-node active" id="node-step-1">1</div>
+          <div class="progress-step-node" id="node-step-2">2</div>
+          <div class="progress-step-node" id="node-step-3">3</div>
+          <div class="progress-step-node" id="node-step-4">4</div>
+          <div class="progress-step-node" id="node-step-5">5</div>
+        </div>
+
+        <!-- Step 1: Basic Profile -->
+        <div class="onboarding-step-content active" data-step="1">
+          <h3 style="font-size: 1.15rem; margin-bottom: 6px;">Step 1: Your Profile</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">Help us establish your biological baseline.</p>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Full Name</label>
+              <input type="text" id="onboard-name" class="form-control" placeholder="Alex Morgan" value="Alex Morgan">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Age</label>
+              <input type="number" id="onboard-age" class="form-control" placeholder="28" value="28">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Gender (Optional)</label>
+              <select class="form-control">
+                <option>Non-binary</option>
+                <option>Female</option>
+                <option>Male</option>
+                <option>Prefer not to say</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Height / Weight (Optional)</label>
+              <input type="text" class="form-control" placeholder="175 cm / 68 kg">
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 2: Lifestyle Baseline -->
+        <div class="onboarding-step-content" data-step="2">
+          <h3 style="font-size: 1.15rem; margin-bottom: 6px;">Step 2: Lifestyle Habits</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">What does your typical day look like?</p>
+          <div class="form-group">
+            <label class="form-label">Average Nightly Sleep (Hours)</label>
+            <input type="number" step="0.5" class="form-control" value="7.5">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Activity Level</label>
+            <div class="chips-selector" data-group="activity">
+              <div class="select-chip">Sedentary (Desk Job)</div>
+              <div class="select-chip selected">Moderately Active</div>
+              <div class="select-chip">Very Active / Athlete</div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Average Daily Screen Time</label>
+            <input type="number" step="0.5" class="form-control" value="6.5">
+          </div>
+        </div>
+
+        <!-- Step 3: Wellness Goals -->
+        <div class="onboarding-step-content" data-step="3">
+          <h3 style="font-size: 1.15rem; margin-bottom: 6px;">Step 3: Core Wellness Priorities</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">Select all that apply:</p>
+          <div class="chips-selector" data-group="goals">
+            <div class="select-chip selected">🌙 Better sleep quality</div>
+            <div class="select-chip selected">🏃 More physical activity</div>
+            <div class="select-chip selected">📱 Reduced screen time</div>
+            <div class="select-chip">💓 Optimize Heart Rate Variability</div>
+            <div class="select-chip">⚡ Consistent daytime energy</div>
+          </div>
+        </div>
+
+        <!-- Step 4: Data Preferences -->
+        <div class="onboarding-step-content" data-step="4">
+          <h3 style="font-size: 1.15rem; margin-bottom: 6px;">Step 4: Telemetry Source</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">How would you like to explore Know Thyself AI?</p>
+          <div class="chips-selector" data-group="data_pref">
+            <div class="select-chip selected">✨ Initialize with 30-Day Demo Dataset (Recommended)</div>
+            <div class="select-chip">📁 Upload Apple Health / Fitness CSV</div>
+            <div class="select-chip">✍️ Log Daily Manually</div>
+          </div>
+        </div>
+
+        <!-- Step 5: Confirmation -->
+        <div class="onboarding-step-content" data-step="5">
+          <div style="text-align: center; padding: 20px 0;">
+            <div class="card-icon teal" style="width: 58px; height: 58px; margin: 0 auto 16px;">
+              <i data-lucide="check-circle" style="width: 32px; height: 32px;"></i>
+            </div>
+            <h3 style="font-size: 1.4rem; margin-bottom: 8px;">You're Ready to Discover Your Data!</h3>
+            <p style="color: var(--text-secondary); font-size: 0.92rem; line-height: 1.6; max-width: 440px; margin: 0 auto;">
+              Your baseline profile is calibrated. We will now launch your unified intelligence dashboard.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-onboard-action="prev">Back</button>
+        <button type="button" class="btn btn-secondary" data-onboard-action="skip">Skip</button>
+        <button type="button" class="btn btn-primary" data-onboard-action="next">Continue</button>
+        <button type="button" class="btn btn-primary" data-onboard-action="finish" style="display: none;">Launch Dashboard</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==========================================================================
+       MODAL 3: MANUAL WELLNESS DATA LOGGING
+       ========================================================================== -->
+  <div class="modal-overlay" id="modal-log-entry">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="card-title-group">
+          <div class="card-icon teal"><i data-lucide="plus-circle"></i></div>
+          <div>
+            <div class="card-title">Log Daily Wellness Telemetry</div>
+            <div class="card-subtitle">Record your activity, sleep, cardio & screen metrics</div>
+          </div>
+        </div>
+        <button class="btn-icon-only" data-modal-close aria-label="Close dialog">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+
+      <form id="form-log-entry">
+        <div class="modal-body">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Date</label>
+              <input type="date" name="date" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Workout / Primary Focus</label>
+              <select name="workout" class="form-control">
+                <option value="Running">Running</option>
+                <option value="Strength Training">Strength Training</option>
+                <option value="HIIT">HIIT</option>
+                <option value="Cycling">Cycling</option>
+                <option value="Yoga / Mobility">Yoga / Mobility</option>
+                <option value="Brisk Walk">Brisk Walk</option>
+                <option value="Rest & Recovery">Rest & Recovery</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Daily Steps</label>
+              <input type="number" name="steps" class="form-control" placeholder="8500" value="8500" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Active Minutes</label>
+              <input type="number" name="active_minutes" class="form-control" placeholder="45" value="45" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Total Sleep (Hours)</label>
+              <input type="number" step="0.1" name="sleep_hours" class="form-control" placeholder="7.5" value="7.5" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Sleep Latency (Minutes)</label>
+              <input type="number" name="latency" class="form-control" placeholder="18" value="18" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Resting Heart Rate (BPM)</label>
+              <input type="number" name="resting_hr" class="form-control" placeholder="62" value="62" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Heart Rate Variability (HRV ms)</label>
+              <input type="number" name="hrv" class="form-control" placeholder="64" value="64" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Total Screen Time (Hours)</label>
+              <input type="number" step="0.1" name="screen_hours" class="form-control" placeholder="6.8" value="6.8" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Late Night Screen Time (Minutes)</label>
+              <input type="number" name="late_screen" class="form-control" placeholder="40" value="40" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-modal-close>Cancel</button>
+          <button type="submit" class="btn btn-primary">
+            <i data-lucide="check"></i>
+            <span>Save Telemetry</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notifications Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- JavaScript Modules -->
+  <script src="/static/js/api.js"></script>
+  <script src="/static/js/charts.js"></script>
+  <script src="/static/js/components.js"></script>
+  <script src="/static/js/app.js"></script>
+
+</body>
+</html>
